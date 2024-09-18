@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoção de Gatos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="bg-warning text-black text-center py-4">
+        <h1>Adoção de Gatos</h1>
+        <nav>
+            <ul class="nav justify-content-center" id="navbarNav">
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#secao1">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#secao2">Gatos Disponíveis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#secao3">Como Adotar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Corpo -->
+    <div class="container my-5">
+
+        <!-- Seção 1 -->
+        <div id="secao1" class="container mb-4 bg-warning p-4 rounded">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma organização dedicada à adoção de gatos abandonados. Nosso objetivo é encontrar lares amorosos para os nossos felinos.</p>
+        </div>
+
+        <!-- Seção 2 -->
+        <div id="secao2" class="container mb-4 bg-warning p-4 rounded">
+            <h2>Gatos Disponíveis</h2>
+            <p>Conheça alguns dos nossos gatos que estão prontos para serem adotados:</p>
+            <ul>
+                <li><strong>Felix (3 meses)</strong> - Um gato jovem e brincalhão.</li>
+                <li><strong>Miau (1 ano e 2 meses)</strong> - Uma gata tranquila e carinhosa.</li>
+                <li><strong>Chiquinha (3 anos)</strong> - Uma gata curiosa e cheia de energia.</li>
+            </ul>
+        </div>
+
+        <!-- Seção 3 -->
+        <div id="secao3" class="container mb-4 bg-warning p-4 rounded">
+            <h2>Como Adotar</h2>
+            <p>Para adotar um gato, entre em contato conosco através do <i class="fab fa-whatsapp"></i> (XX) X XXXX-XXXX ou visite-nos em nosso abrigo. Faremos uma entrevista para garantir que você e o gato sejam compatíveis.</p>
+        </div>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; <span id="ano"></span> Adoção de Gatos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Atualiza o ano no rodapé
+        document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
